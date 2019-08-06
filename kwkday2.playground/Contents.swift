@@ -27,6 +27,7 @@ import UIKit
 //let drinksordered = pizza(numberoffriends : 5)
 //print("I would like to order \(slicesordered) slices of pizza and \(drinksordered) drinks. Thank you!")
 //
-//
-//
+
+//collection array notes
+
 
