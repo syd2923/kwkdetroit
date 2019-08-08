@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Page View Controller-->
+        <scene sceneID="IVi-79-MhL">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="tk2-hP-jaB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMU-lc-wAN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="-513"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dho-Im-9x1">
+                                <rect key="frame" x="26" y="352" width="114" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="youuuuuu!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SOUJA BOY UP IN IT!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lF0-sp-6fK">
+                                <rect key="frame" x="98" y="425" width="221" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" thanos said 🌊🤠" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AI4-2N-vE2">
+                                <rect key="frame" x="98" y="773" width="217" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="C91-zY-bJu">
+                                <rect key="frame" x="187" y="825" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="souja" translatesAutoresizingMaskIntoConstraints="NO" id="AIB-bR-Wbv">
+                                <rect key="frame" x="96" y="119" width="240" height="225.00000000000003"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SYD'S  MEMES SKSKS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05m-p7-LDS">
+                                <rect key="frame" x="79" y="66" width="258" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="thanos" translatesAutoresizingMaskIntoConstraints="NO" id="DmX-ev-fV9">
+                                <rect key="frame" x="79" y="500" width="259" height="182"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="182" id="hNg-lY-7Vp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73644319649141821" green="0.71081247939874126" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.22419549081214618" green="0.78600774470603063" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dho-Im-9x1" firstAttribute="top" secondItem="AIB-bR-Wbv" secondAttribute="bottom" constant="72" id="0Nr-Sw-0DY"/>
+                            <constraint firstItem="AIB-bR-Wbv" firstAttribute="top" secondItem="05m-p7-LDS" secondAttribute="bottom" constant="30" id="4YH-3g-ly5"/>
+                            <constraint firstItem="Dho-Im-9x1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="66S-ha-r9c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AI4-2N-vE2" secondAttribute="trailing" constant="99" id="8Yb-fV-ZI3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lF0-sp-6fK" secondAttribute="trailing" constant="95" id="BK0-OC-xQv"/>
+                            <constraint firstItem="lF0-sp-6fK" firstAttribute="centerX" secondItem="DmX-ev-fV9" secondAttribute="centerX" id="DJs-rv-Trj"/>
+                            <constraint firstAttribute="bottom" secondItem="DmX-ev-fV9" secondAttribute="bottom" constant="213" id="EiW-0I-YmZ"/>
+                            <constraint firstItem="05m-p7-LDS" firstAttribute="leading" secondItem="AIB-bR-Wbv" secondAttribute="trailing" constant="-249" id="LLk-TM-JPR"/>
+                            <constraint firstItem="lF0-sp-6fK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="Oj6-u5-tF0"/>
+                            <constraint firstItem="DmX-ev-fV9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="Tou-Pa-Tpt"/>
+                            <constraint firstItem="lF0-sp-6fK" firstAttribute="top" secondItem="Dho-Im-9x1" secondAttribute="bottom" constant="31" id="aWO-fS-T9A"/>
+                            <constraint firstItem="AIB-bR-Wbv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="arR-pq-ie0"/>
+                            <constraint firstItem="DmX-ev-fV9" firstAttribute="top" secondItem="lF0-sp-6fK" secondAttribute="bottom" constant="64" id="dhj-q3-9Aj"/>
+                            <constraint firstItem="Dho-Im-9x1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dp1-kn-dbD"/>
+                            <constraint firstItem="AI4-2N-vE2" firstAttribute="top" secondItem="DmX-ev-fV9" secondAttribute="bottom" constant="74" id="gWT-ih-sEx"/>
+                            <constraint firstItem="Dho-Im-9x1" firstAttribute="top" secondItem="AIB-bR-Wbv" secondAttribute="bottom" constant="27" id="guy-mU-QYd"/>
+                            <constraint firstItem="DmX-ev-fV9" firstAttribute="centerX" secondItem="lF0-sp-6fK" secondAttribute="centerX" id="h8t-hF-bjS"/>
+                            <constraint firstItem="AI4-2N-vE2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="hhk-zZ-ea8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Dho-Im-9x1" secondAttribute="trailing" id="mMN-WP-no0"/>
+                            <constraint firstItem="DmX-ev-fV9" firstAttribute="top" secondItem="lF0-sp-6fK" secondAttribute="bottom" constant="48" id="pEy-hJ-VkO"/>
+                            <constraint firstItem="Dho-Im-9x1" firstAttribute="top" secondItem="AIB-bR-Wbv" secondAttribute="bottom" constant="80" id="qgc-c3-A3k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AIB-bR-Wbv" secondAttribute="trailing" constant="86" id="rz0-L8-beK"/>
+                            <constraint firstItem="AI4-2N-vE2" firstAttribute="top" secondItem="DmX-ev-fV9" secondAttribute="bottom" constant="19" id="vmO-tH-603"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86.956521739130437" y="-208.92857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="souja" width="225" height="225"/>
+        <image name="thanos" width="263" height="192"/>
+    </resources>
+</document>
