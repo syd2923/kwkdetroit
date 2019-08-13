@@ -8,10 +8,32 @@
 
 import UIKit
 
+
+struct Songs {
+    var id : Int
+    var title : String
+    var text : String
+    var image : String
+}
+
+    var allSongs = [
+        Songs(id: 1,
+              title: "Could've Been",
+              text: "Feat. Bryson Tiller",
+              image: "bryson&her"),
+        Songs(id: 2,
+              title: "Focus",
+              text: "By H.E.R. ",
+              image: "her"),
+        Songs(id: 3,
+              title: "Best Part",
+              text: "Feat. Daniel Caesar",
+              image: "danielandher")
+        
+    ]
 class SongsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -21,27 +43,50 @@ class SongsTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
+    
+    class StoriesTableViewController: UITableViewController {
+    // the rest of your code
+    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return allSongs.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
 
         // Configure the cell...
+        
+        
+        cell.textLabel?.text = allSongs[indexPath.row].title
+       cell.imageView?.image = UIImage(named:allSongs[indexPath.row].image)
+        cell.detailTextLabel?.text = allSongs[indexPath.row].text
 
+        
         return cell
     }
-    */
-
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Section \(section)"
+        
+        
+            
+            // the rest of your code
+        }
+            
+            
+        
+        
+        
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -87,4 +132,4 @@ class SongsTableViewController: UITableViewController {
     }
     */
 
-}
+

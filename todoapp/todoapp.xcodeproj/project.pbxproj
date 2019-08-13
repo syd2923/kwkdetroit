@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB7118C822FDE94E00AE8F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7118C722FDE94E00AE8F7D /* AppDelegate.swift */; };
-		DB7118CD22FDE94E00AE8F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7118CB22FDE94E00AE8F7D /* Main.storyboard */; };
-		DB7118CF22FDE95000AE8F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7118CE22FDE95000AE8F7D /* Assets.xcassets */; };
-		DB7118D222FDE95000AE8F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7118D022FDE95000AE8F7D /* LaunchScreen.storyboard */; };
-		DB7118DC22FDEF0700AE8F7D /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7118DB22FDEF0700AE8F7D /* SongsTableViewController.swift */; };
+		DB04678B230222B70082EB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04678A230222B70082EB52 /* AppDelegate.swift */; };
+		DB04678D230222B70082EB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04678C230222B70082EB52 /* ViewController.swift */; };
+		DB046790230222B70082EB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB04678E230222B70082EB52 /* Main.storyboard */; };
+		DB046793230222B70082EB52 /* todoapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB046791230222B70082EB52 /* todoapp.xcdatamodeld */; };
+		DB046795230222B80082EB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB046794230222B80082EB52 /* Assets.xcassets */; };
+		DB046798230222B80082EB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB046796230222B80082EB52 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB7118C422FDE94E00AE8F7D /* tablesprojectkwk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tablesprojectkwk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB7118C722FDE94E00AE8F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB7118CC22FDE94E00AE8F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB7118CE22FDE95000AE8F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB7118D122FDE95000AE8F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DB7118D322FDE95000AE8F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB7118DB22FDEF0700AE8F7D /* SongsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		DB046787230222B70082EB52 /* todoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB04678A230222B70082EB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB04678C230222B70082EB52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB04678F230222B70082EB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB046792230222B70082EB52 /* todoapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todoapp.xcdatamodel; sourceTree = "<group>"; };
+		DB046794230222B80082EB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB046797230222B80082EB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB046799230222B80082EB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB7118C122FDE94E00AE8F7D /* Frameworks */ = {
+		DB046784230222B70082EB52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB7118BB22FDE94E00AE8F7D = {
+		DB04677E230222B70082EB52 = {
 			isa = PBXGroup;
 			children = (
-				DB7118C622FDE94E00AE8F7D /* tablesprojectkwk */,
-				DB7118C522FDE94E00AE8F7D /* Products */,
+				DB046789230222B70082EB52 /* todoapp */,
+				DB046788230222B70082EB52 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DB7118C522FDE94E00AE8F7D /* Products */ = {
+		DB046788230222B70082EB52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB7118C422FDE94E00AE8F7D /* tablesprojectkwk.app */,
+				DB046787230222B70082EB52 /* todoapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB7118C622FDE94E00AE8F7D /* tablesprojectkwk */ = {
+		DB046789230222B70082EB52 /* todoapp */ = {
 			isa = PBXGroup;
 			children = (
-				DB7118C722FDE94E00AE8F7D /* AppDelegate.swift */,
-				DB7118CB22FDE94E00AE8F7D /* Main.storyboard */,
-				DB7118CE22FDE95000AE8F7D /* Assets.xcassets */,
-				DB7118D022FDE95000AE8F7D /* LaunchScreen.storyboard */,
-				DB7118D322FDE95000AE8F7D /* Info.plist */,
-				DB7118DB22FDEF0700AE8F7D /* SongsTableViewController.swift */,
+				DB04678A230222B70082EB52 /* AppDelegate.swift */,
+				DB04678C230222B70082EB52 /* ViewController.swift */,
+				DB04678E230222B70082EB52 /* Main.storyboard */,
+				DB046794230222B80082EB52 /* Assets.xcassets */,
+				DB046796230222B80082EB52 /* LaunchScreen.storyboard */,
+				DB046799230222B80082EB52 /* Info.plist */,
+				DB046791230222B70082EB52 /* todoapp.xcdatamodeld */,
 			);
-			path = tablesprojectkwk;
+			path = todoapp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB7118C322FDE94E00AE8F7D /* tablesprojectkwk */ = {
+		DB046786230222B70082EB52 /* todoapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB7118D622FDE95000AE8F7D /* Build configuration list for PBXNativeTarget "tablesprojectkwk" */;
+			buildConfigurationList = DB04679C230222B80082EB52 /* Build configuration list for PBXNativeTarget "todoapp" */;
 			buildPhases = (
-				DB7118C022FDE94E00AE8F7D /* Sources */,
-				DB7118C122FDE94E00AE8F7D /* Frameworks */,
-				DB7118C222FDE94E00AE8F7D /* Resources */,
+				DB046783230222B70082EB52 /* Sources */,
+				DB046784230222B70082EB52 /* Frameworks */,
+				DB046785230222B70082EB52 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = tablesprojectkwk;
-			productName = tablesprojectkwk;
-			productReference = DB7118C422FDE94E00AE8F7D /* tablesprojectkwk.app */;
+			name = todoapp;
+			productName = todoapp;
+			productReference = DB046787230222B70082EB52 /* todoapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DB7118BC22FDE94E00AE8F7D /* Project object */ = {
+		DB04677F230222B70082EB52 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Sydney Brown";
 				TargetAttributes = {
-					DB7118C322FDE94E00AE8F7D = {
+					DB046786230222B70082EB52 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = DB7118BF22FDE94E00AE8F7D /* Build configuration list for PBXProject "tablesprojectkwk" */;
+			buildConfigurationList = DB046782230222B70082EB52 /* Build configuration list for PBXProject "todoapp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = DB7118BB22FDE94E00AE8F7D;
-			productRefGroup = DB7118C522FDE94E00AE8F7D /* Products */;
+			mainGroup = DB04677E230222B70082EB52;
+			productRefGroup = DB046788230222B70082EB52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB7118C322FDE94E00AE8F7D /* tablesprojectkwk */,
+				DB046786230222B70082EB52 /* todoapp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB7118C222FDE94E00AE8F7D /* Resources */ = {
+		DB046785230222B70082EB52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7118D222FDE95000AE8F7D /* LaunchScreen.storyboard in Resources */,
-				DB7118CF22FDE95000AE8F7D /* Assets.xcassets in Resources */,
-				DB7118CD22FDE94E00AE8F7D /* Main.storyboard in Resources */,
+				DB046798230222B80082EB52 /* LaunchScreen.storyboard in Resources */,
+				DB046795230222B80082EB52 /* Assets.xcassets in Resources */,
+				DB046790230222B70082EB52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DB7118C022FDE94E00AE8F7D /* Sources */ = {
+		DB046783230222B70082EB52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7118DC22FDEF0700AE8F7D /* SongsTableViewController.swift in Sources */,
-				DB7118C822FDE94E00AE8F7D /* AppDelegate.swift in Sources */,
+				DB04678D230222B70082EB52 /* ViewController.swift in Sources */,
+				DB046793230222B70082EB52 /* todoapp.xcdatamodeld in Sources */,
+				DB04678B230222B70082EB52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB7118CB22FDE94E00AE8F7D /* Main.storyboard */ = {
+		DB04678E230222B70082EB52 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB7118CC22FDE94E00AE8F7D /* Base */,
+				DB04678F230222B70082EB52 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DB7118D022FDE95000AE8F7D /* LaunchScreen.storyboard */ = {
+		DB046796230222B80082EB52 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB7118D122FDE95000AE8F7D /* Base */,
+				DB046797230222B80082EB52 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DB7118D422FDE95000AE8F7D /* Debug */ = {
+		DB04679A230222B80082EB52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		DB7118D522FDE95000AE8F7D /* Release */ = {
+		DB04679B230222B80082EB52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,34 +282,34 @@
 			};
 			name = Release;
 		};
-		DB7118D722FDE95000AE8F7D /* Debug */ = {
+		DB04679D230222B80082EB52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tablesprojectkwk/Info.plist;
+				INFOPLIST_FILE = todoapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SYDNEYBROWN.tablesprojectkwk;
+				PRODUCT_BUNDLE_IDENTIFIER = SYDNEYBROWN.todoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DB7118D822FDE95000AE8F7D /* Release */ = {
+		DB04679E230222B80082EB52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tablesprojectkwk/Info.plist;
+				INFOPLIST_FILE = todoapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SYDNEYBROWN.tablesprojectkwk;
+				PRODUCT_BUNDLE_IDENTIFIER = SYDNEYBROWN.todoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +319,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB7118BF22FDE94E00AE8F7D /* Build configuration list for PBXProject "tablesprojectkwk" */ = {
+		DB046782230222B70082EB52 /* Build configuration list for PBXProject "todoapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB7118D422FDE95000AE8F7D /* Debug */,
-				DB7118D522FDE95000AE8F7D /* Release */,
+				DB04679A230222B80082EB52 /* Debug */,
+				DB04679B230222B80082EB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB7118D622FDE95000AE8F7D /* Build configuration list for PBXNativeTarget "tablesprojectkwk" */ = {
+		DB04679C230222B80082EB52 /* Build configuration list for PBXNativeTarget "todoapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB7118D722FDE95000AE8F7D /* Debug */,
-				DB7118D822FDE95000AE8F7D /* Release */,
+				DB04679D230222B80082EB52 /* Debug */,
+				DB04679E230222B80082EB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB046791230222B70082EB52 /* todoapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB046792230222B70082EB52 /* todoapp.xcdatamodel */,
+			);
+			currentVersion = DB046792230222B70082EB52 /* todoapp.xcdatamodel */;
+			path = todoapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = DB7118BC22FDE94E00AE8F7D /* Project object */;
+	rootObject = DB04677F230222B70082EB52 /* Project object */;
 }

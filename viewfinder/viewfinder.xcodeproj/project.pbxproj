@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB7118C822FDE94E00AE8F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7118C722FDE94E00AE8F7D /* AppDelegate.swift */; };
-		DB7118CD22FDE94E00AE8F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7118CB22FDE94E00AE8F7D /* Main.storyboard */; };
-		DB7118CF22FDE95000AE8F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7118CE22FDE95000AE8F7D /* Assets.xcassets */; };
-		DB7118D222FDE95000AE8F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7118D022FDE95000AE8F7D /* LaunchScreen.storyboard */; };
-		DB7118DC22FDEF0700AE8F7D /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7118DB22FDEF0700AE8F7D /* SongsTableViewController.swift */; };
+		DB9A998B23030748006FCF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9A998A23030748006FCF4D /* AppDelegate.swift */; };
+		DB9A998D23030748006FCF4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9A998C23030748006FCF4D /* ViewController.swift */; };
+		DB9A999023030748006FCF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9A998E23030748006FCF4D /* Main.storyboard */; };
+		DB9A999323030748006FCF4D /* viewfinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB9A999123030748006FCF4D /* viewfinder.xcdatamodeld */; };
+		DB9A999523030749006FCF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9A999423030749006FCF4D /* Assets.xcassets */; };
+		DB9A999823030749006FCF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9A999623030749006FCF4D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB7118C422FDE94E00AE8F7D /* tablesprojectkwk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tablesprojectkwk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB7118C722FDE94E00AE8F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB7118CC22FDE94E00AE8F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB7118CE22FDE95000AE8F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB7118D122FDE95000AE8F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DB7118D322FDE95000AE8F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB7118DB22FDEF0700AE8F7D /* SongsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		DB9A998723030748006FCF4D /* viewfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9A998A23030748006FCF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB9A998C23030748006FCF4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB9A998F23030748006FCF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9A999223030748006FCF4D /* viewfinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = viewfinder.xcdatamodel; sourceTree = "<group>"; };
+		DB9A999423030749006FCF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB9A999723030749006FCF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB9A999923030749006FCF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB7118C122FDE94E00AE8F7D /* Frameworks */ = {
+		DB9A998423030748006FCF4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB7118BB22FDE94E00AE8F7D = {
+		DB9A997E23030748006FCF4D = {
 			isa = PBXGroup;
 			children = (
-				DB7118C622FDE94E00AE8F7D /* tablesprojectkwk */,
-				DB7118C522FDE94E00AE8F7D /* Products */,
+				DB9A998923030748006FCF4D /* viewfinder */,
+				DB9A998823030748006FCF4D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DB7118C522FDE94E00AE8F7D /* Products */ = {
+		DB9A998823030748006FCF4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB7118C422FDE94E00AE8F7D /* tablesprojectkwk.app */,
+				DB9A998723030748006FCF4D /* viewfinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB7118C622FDE94E00AE8F7D /* tablesprojectkwk */ = {
+		DB9A998923030748006FCF4D /* viewfinder */ = {
 			isa = PBXGroup;
 			children = (
-				DB7118C722FDE94E00AE8F7D /* AppDelegate.swift */,
-				DB7118CB22FDE94E00AE8F7D /* Main.storyboard */,
-				DB7118CE22FDE95000AE8F7D /* Assets.xcassets */,
-				DB7118D022FDE95000AE8F7D /* LaunchScreen.storyboard */,
-				DB7118D322FDE95000AE8F7D /* Info.plist */,
-				DB7118DB22FDEF0700AE8F7D /* SongsTableViewController.swift */,
+				DB9A998A23030748006FCF4D /* AppDelegate.swift */,
+				DB9A998C23030748006FCF4D /* ViewController.swift */,
+				DB9A998E23030748006FCF4D /* Main.storyboard */,
+				DB9A999423030749006FCF4D /* Assets.xcassets */,
+				DB9A999623030749006FCF4D /* LaunchScreen.storyboard */,
+				DB9A999923030749006FCF4D /* Info.plist */,
+				DB9A999123030748006FCF4D /* viewfinder.xcdatamodeld */,
 			);
-			path = tablesprojectkwk;
+			path = viewfinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB7118C322FDE94E00AE8F7D /* tablesprojectkwk */ = {
+		DB9A998623030748006FCF4D /* viewfinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB7118D622FDE95000AE8F7D /* Build configuration list for PBXNativeTarget "tablesprojectkwk" */;
+			buildConfigurationList = DB9A999C23030749006FCF4D /* Build configuration list for PBXNativeTarget "viewfinder" */;
 			buildPhases = (
-				DB7118C022FDE94E00AE8F7D /* Sources */,
-				DB7118C122FDE94E00AE8F7D /* Frameworks */,
-				DB7118C222FDE94E00AE8F7D /* Resources */,
+				DB9A998323030748006FCF4D /* Sources */,
+				DB9A998423030748006FCF4D /* Frameworks */,
+				DB9A998523030748006FCF4D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = tablesprojectkwk;
-			productName = tablesprojectkwk;
-			productReference = DB7118C422FDE94E00AE8F7D /* tablesprojectkwk.app */;
+			name = viewfinder;
+			productName = viewfinder;
+			productReference = DB9A998723030748006FCF4D /* viewfinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DB7118BC22FDE94E00AE8F7D /* Project object */ = {
+		DB9A997F23030748006FCF4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Sydney Brown";
 				TargetAttributes = {
-					DB7118C322FDE94E00AE8F7D = {
+					DB9A998623030748006FCF4D = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = DB7118BF22FDE94E00AE8F7D /* Build configuration list for PBXProject "tablesprojectkwk" */;
+			buildConfigurationList = DB9A998223030748006FCF4D /* Build configuration list for PBXProject "viewfinder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = DB7118BB22FDE94E00AE8F7D;
-			productRefGroup = DB7118C522FDE94E00AE8F7D /* Products */;
+			mainGroup = DB9A997E23030748006FCF4D;
+			productRefGroup = DB9A998823030748006FCF4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB7118C322FDE94E00AE8F7D /* tablesprojectkwk */,
+				DB9A998623030748006FCF4D /* viewfinder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB7118C222FDE94E00AE8F7D /* Resources */ = {
+		DB9A998523030748006FCF4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7118D222FDE95000AE8F7D /* LaunchScreen.storyboard in Resources */,
-				DB7118CF22FDE95000AE8F7D /* Assets.xcassets in Resources */,
-				DB7118CD22FDE94E00AE8F7D /* Main.storyboard in Resources */,
+				DB9A999823030749006FCF4D /* LaunchScreen.storyboard in Resources */,
+				DB9A999523030749006FCF4D /* Assets.xcassets in Resources */,
+				DB9A999023030748006FCF4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DB7118C022FDE94E00AE8F7D /* Sources */ = {
+		DB9A998323030748006FCF4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7118DC22FDEF0700AE8F7D /* SongsTableViewController.swift in Sources */,
-				DB7118C822FDE94E00AE8F7D /* AppDelegate.swift in Sources */,
+				DB9A999323030748006FCF4D /* viewfinder.xcdatamodeld in Sources */,
+				DB9A998D23030748006FCF4D /* ViewController.swift in Sources */,
+				DB9A998B23030748006FCF4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB7118CB22FDE94E00AE8F7D /* Main.storyboard */ = {
+		DB9A998E23030748006FCF4D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB7118CC22FDE94E00AE8F7D /* Base */,
+				DB9A998F23030748006FCF4D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DB7118D022FDE95000AE8F7D /* LaunchScreen.storyboard */ = {
+		DB9A999623030749006FCF4D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB7118D122FDE95000AE8F7D /* Base */,
+				DB9A999723030749006FCF4D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DB7118D422FDE95000AE8F7D /* Debug */ = {
+		DB9A999A23030749006FCF4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		DB7118D522FDE95000AE8F7D /* Release */ = {
+		DB9A999B23030749006FCF4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,34 +282,34 @@
 			};
 			name = Release;
 		};
-		DB7118D722FDE95000AE8F7D /* Debug */ = {
+		DB9A999D23030749006FCF4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tablesprojectkwk/Info.plist;
+				INFOPLIST_FILE = viewfinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SYDNEYBROWN.tablesprojectkwk;
+				PRODUCT_BUNDLE_IDENTIFIER = SYDNEYBROWN.viewfinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DB7118D822FDE95000AE8F7D /* Release */ = {
+		DB9A999E23030749006FCF4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tablesprojectkwk/Info.plist;
+				INFOPLIST_FILE = viewfinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SYDNEYBROWN.tablesprojectkwk;
+				PRODUCT_BUNDLE_IDENTIFIER = SYDNEYBROWN.viewfinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +319,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB7118BF22FDE94E00AE8F7D /* Build configuration list for PBXProject "tablesprojectkwk" */ = {
+		DB9A998223030748006FCF4D /* Build configuration list for PBXProject "viewfinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB7118D422FDE95000AE8F7D /* Debug */,
-				DB7118D522FDE95000AE8F7D /* Release */,
+				DB9A999A23030749006FCF4D /* Debug */,
+				DB9A999B23030749006FCF4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB7118D622FDE95000AE8F7D /* Build configuration list for PBXNativeTarget "tablesprojectkwk" */ = {
+		DB9A999C23030749006FCF4D /* Build configuration list for PBXNativeTarget "viewfinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB7118D722FDE95000AE8F7D /* Debug */,
-				DB7118D822FDE95000AE8F7D /* Release */,
+				DB9A999D23030749006FCF4D /* Debug */,
+				DB9A999E23030749006FCF4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB9A999123030748006FCF4D /* viewfinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB9A999223030748006FCF4D /* viewfinder.xcdatamodel */,
+			);
+			currentVersion = DB9A999223030748006FCF4D /* viewfinder.xcdatamodel */;
+			path = viewfinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = DB7118BC22FDE94E00AE8F7D /* Project object */;
+	rootObject = DB9A997F23030748006FCF4D /* Project object */;
 }
