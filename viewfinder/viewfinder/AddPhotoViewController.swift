@@ -9,42 +9,51 @@
 import UIKit
 
 class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    
-    var imagePicker = UIImagePickerController()
-    
-    
-    @IBAction func saveButton(_ sender: Any) {
-    }
-    
-    
-    @IBAction func photoLibraryButton(_ sender: Any) {
-        imagePicker.sourceType = .photoLibrary
-    }
-    
-    
-    @IBAction func cameraButton(_ sender: Any) {
-        imagePicker.sourceType = .camera
-    }
-    
-    
-    @IBAction func albumButton(_ sender: Any) {
-        imagePicker.sourceType = .savedPhotosAlbum
-    }
-    
+
     @IBOutlet weak var cameraPhoto: UIImageView!
     
-    
-    @IBOutlet weak var textField: UITextField!
+    var imagePicker = UIImagePickerController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
-        
-        
-        func imagePickerController(_picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        }
-        // Do any additional setup after loading the view.
     }
+    
+    @IBOutlet weak var textBox: UITextField!
+    
+    
+    @IBAction func takeSelfie(_ sender: Any) {
+        imagePicker.sourceType = .camera
+        
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
+        
+    @IBAction func photoLibrary(_ sender: Any) {
+        imagePicker.sourceType = .photoLibrary
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+            
+            if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+                cameraPhoto.image = selectedImage
+                
+                 imagePicker.dismiss(animated: true, completion: nil)
+                
+            }
+        }
+    }
+        
+        
+    
+    
+    
+    
+        // Do any additional setup after loading the view.
+
     
 
     /*
@@ -60,3 +69,4 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
     
     
 }
+

@@ -37,7 +37,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="bbJ-00-bAF">
                             <color key="tintColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <segue destination="6YX-ev-FLV" kind="show" id="Oc7-SP-0QU"/>
+                                <segue destination="6YX-ev-FLV" kind="show" id="GU9-ac-HD8"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -60,7 +60,8 @@
                                     <color key="titleColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="cameraButton:" destination="6YX-ev-FLV" eventType="touchUpInside" id="kUW-D3-gFB"/>
+                                    <action selector="cameraButton:" destination="6YX-ev-FLV" eventType="touchUpInside" id="vdB-d2-ayR"/>
+                                    <action selector="takeSelfie:" destination="6YX-ev-FLV" eventType="touchUpInside" id="xTb-pT-NDf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNv-hm-N6k">
@@ -69,6 +70,7 @@
                                     <color key="titleColor" red="0.35463505983352661" green="0.63406187295913696" blue="0.90500575304031372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="photoLibrary:" destination="6YX-ev-FLV" eventType="touchUpInside" id="dcO-tw-d3p"/>
                                     <action selector="photoLibraryButton:" destination="6YX-ev-FLV" eventType="touchUpInside" id="f0U-vH-12W"/>
                                 </connections>
                             </button>
@@ -123,7 +125,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Add a new photo! " id="HWx-6v-gum"/>
                     <connections>
-                        <outlet property="cameraPhoto" destination="7bJ-9y-oZo" id="hmX-oD-ek5"/>
+                        <outlet property="cameraPhoto" destination="7bJ-9y-oZo" id="yHk-QC-LFh"/>
+                        <outlet property="textBox" destination="sVa-Qj-tzz" id="Cyz-nE-EU0"/>
                         <outlet property="textField" destination="sVa-Qj-tzz" id="wgU-zk-RfW"/>
                     </connections>
                 </viewController>
