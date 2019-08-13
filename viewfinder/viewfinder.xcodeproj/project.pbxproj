@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DB9A998B23030748006FCF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9A998A23030748006FCF4D /* AppDelegate.swift */; };
-		DB9A998D23030748006FCF4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9A998C23030748006FCF4D /* ViewController.swift */; };
 		DB9A999023030748006FCF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9A998E23030748006FCF4D /* Main.storyboard */; };
 		DB9A999323030748006FCF4D /* viewfinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB9A999123030748006FCF4D /* viewfinder.xcdatamodeld */; };
 		DB9A999523030749006FCF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9A999423030749006FCF4D /* Assets.xcassets */; };
 		DB9A999823030749006FCF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9A999623030749006FCF4D /* LaunchScreen.storyboard */; };
+		DB9A99A2230314C8006FCF4D /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9A99A1230314C8006FCF4D /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB9A998723030748006FCF4D /* viewfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9A998A23030748006FCF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB9A998C23030748006FCF4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB9A998F23030748006FCF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB9A999223030748006FCF4D /* viewfinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = viewfinder.xcdatamodel; sourceTree = "<group>"; };
 		DB9A999423030749006FCF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9A999723030749006FCF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB9A999923030749006FCF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9A99A1230314C8006FCF4D /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				DB9A998A23030748006FCF4D /* AppDelegate.swift */,
-				DB9A998C23030748006FCF4D /* ViewController.swift */,
 				DB9A998E23030748006FCF4D /* Main.storyboard */,
+				DB9A99A1230314C8006FCF4D /* AddPhotoViewController.swift */,
 				DB9A999423030749006FCF4D /* Assets.xcassets */,
 				DB9A999623030749006FCF4D /* LaunchScreen.storyboard */,
 				DB9A999923030749006FCF4D /* Info.plist */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB9A999323030748006FCF4D /* viewfinder.xcdatamodeld in Sources */,
-				DB9A998D23030748006FCF4D /* ViewController.swift in Sources */,
+				DB9A99A2230314C8006FCF4D /* AddPhotoViewController.swift in Sources */,
 				DB9A998B23030748006FCF4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
